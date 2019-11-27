@@ -1,12 +1,12 @@
 import React from 'react'
-// import { Welcome } from 'eleanor'
-import Button from './components/Button'
+ import { Button, Welcome } from 'eleanor'
 
 export default function App() {
 
     return (
         <div>
             <div>
+                <Welcome name='Erik'/>
                 <Button >Button</Button>
             </div>
             <br/>
