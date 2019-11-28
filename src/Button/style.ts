@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 
-import { tokens } from '../style/constants'
+import tokens from '../style/constants'
 
 interface IProps {
     icon?: string,
